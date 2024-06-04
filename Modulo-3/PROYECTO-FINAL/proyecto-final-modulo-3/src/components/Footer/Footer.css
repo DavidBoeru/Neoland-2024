@@ -1,0 +1,14 @@
+footer {
+    width: 100vw;
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(70deg, rgb(19, 139, 21), rgb(178, 24, 24));
+}  
+
+.whiteContainer {
+    width: 100vw;
+    height: 1vh;
+    background-color: white;
+}

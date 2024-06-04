@@ -1,0 +1,11 @@
+.one, .three {
+    padding: 16px;
+  }
+  
+  .two {
+    margin-top: 48px;
+  }
+  
+  .three {
+    margin-left: auto;
+  }

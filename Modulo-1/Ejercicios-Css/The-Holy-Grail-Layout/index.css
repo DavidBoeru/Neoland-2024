@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Dos columnas, la segunda es el doble de ancha que la primera */
+    grid-template-rows: auto auto 5fr auto; /* Cuatro filas, la tercera es cinco veces más alta que las demás */
+    gap: 15px; /* Espacio entre las celdas */
+    height: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .container div {
+    font-size: 32px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  .header {
+    grid-column: 1 / span 2; /* Encabezado ocupa dos columnas */
+    background-color: #FFDE22;
+  }
+  
+  .sidebar {
+    grid-row: 2 / span 3; /* Barra lateral ocupa tres filas */
+    background-color: #FF7755;
+  }
+  
+  .nav {
+    grid-column: 2; /* Navegación ocupa la segunda columna */
+    background-color: #00DDFF;
+  }
+  
+  .article {
+    grid-row: 3 / span 3; /* Artículo ocupa tres filas */
+    grid-column: 2; /* Artículo ocupa la segunda columna */
+    background-color: #bccbde;
+    text-align: left;
+    padding: 15px; /* Añadir relleno al artículo */
+  }
+  
+  .article p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .footer {
+    grid-column: 1 / span 2; /* Pie de página ocupa dos columnas */
+    background-color: #393f4d;
+  }
+  

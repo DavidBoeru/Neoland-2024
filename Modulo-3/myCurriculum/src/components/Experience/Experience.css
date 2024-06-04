@@ -1,0 +1,16 @@
+#tituloExperience {
+    background-color: rgb(46, 57, 85);
+}
+
+#experience {
+    background-color: rgb(174, 220, 220);
+    box-shadow: 20px 15px 5px black;
+}
+
+#name {
+    color:black
+}
+
+#description {
+    color:rgb(157, 87, 87)
+}

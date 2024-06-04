@@ -1,0 +1,24 @@
+
+#tituloLenguajes {
+    background-color:rgb(87, 97, 97) ;
+  
+}
+
+#cuerpoLenguajes{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(159, 200, 200);
+    box-shadow: 20px 15px 10px black;
+}
+
+#habilidades{
+    background-color: rgb(96, 81, 71);
+}
+
+#itemHabilities{
+    list-style:none;
+    color:black;
+    background-color: rgb(128, 169, 169);
+    box-shadow: 20px 15px 10px black;
+}

@@ -1,0 +1,36 @@
+/* Reset de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    font-family: monospace;
+    background: #fa5252;
+    display: flex; /* Utilizamos flexbox */
+    justify-content: space-between; /* Distribuimos los elementos uniformemente */
+    align-items: center; /* Centramos verticalmente */
+    padding: 20px; /* Añadimos relleno */
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: #82c91e;
+    background: white;
+    padding: 10px 20px; /* Añadimos relleno */
+  }
+  
+  ul {
+    /* Eliminamos los puntos en los elementos de la lista */
+    list-style-type: none;
+    display: flex; /* Utilizamos flexbox */
+  }
+  
+  a {
+    font-size: 22px;
+    background: white;
+    padding: 10px; /* Añadimos relleno */
+    text-decoration: none; /* Eliminamos el subrayado */
+  }
+  

@@ -1,0 +1,22 @@
+#hero {
+    background-color:rgb(143, 233, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 20px 15px 5px black;
+}
+
+#textoInfo {
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgba(240, 248, 255, 0.241);
+    box-shadow: 5px 3px 3px black;
+
+}
+a {
+    color: #0b0089;
+    text-decoration: none;
+  }

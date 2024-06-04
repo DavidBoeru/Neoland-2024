@@ -1,0 +1,15 @@
+#tituloEducation {
+    background-color: blueviolet;
+}
+
+#education {
+    background-color: rgb(172, 229, 229);
+    box-shadow: 20px 15px 5px black;
+}
+
+#name {
+    color:black;
+}
+p {
+    color:rgba(84, 80, 80, 0.948)
+}

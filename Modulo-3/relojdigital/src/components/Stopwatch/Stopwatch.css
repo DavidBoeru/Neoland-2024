@@ -1,0 +1,36 @@
+.stopwatch {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .stopwatch h2 {
+    font-size: 3rem;
+    color: #a41b1b;
+  }
+  
+  .stopwatch button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .stopwatch button:hover {
+    background-color: #0056b3;
+  }
+  
+  .stopwatch button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+  
+  .stopwatch button:not(:last-child) {
+    margin-right: 0;
+  }
+  

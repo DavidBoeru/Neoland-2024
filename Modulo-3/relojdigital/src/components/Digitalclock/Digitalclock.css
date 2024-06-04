@@ -1,0 +1,23 @@
+.digital-clock {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333;
+    background-color: #f8f9fa;
+    border: 4px solid #2d1839;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .digital-clock h2 {
+    margin: 0;
+  }
+
+  .digital-clock:hover {
+    background-color: rgb(202, 166, 237);
+    color: rgb(85, 78, 92);
+    border-color: #4b2a6a;
+  }

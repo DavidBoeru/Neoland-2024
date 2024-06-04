@@ -1,0 +1,26 @@
+#dashboard {
+    position: absolute;
+    top: 190px; /* Ajusta la distancia desde la parte superior según sea necesario */
+    left: 40px; /* Ajusta la distancia desde la izquierda según sea necesario */
+    color: rgb(13, 13, 17); /* Por ejemplo, cambia el color del texto a azul */
+    font-size: 20px; /* Cambia el tamaño de la fuente */
+    background-color: rgb(190, 226, 226);
+  /
+}
+
+#boton-click {
+    background-color: #82a3bb; /* color de fondo */
+    color: white; /* color del texto */
+    padding: 10px 20px; /* relleno */
+    font-size: 16px; /* tamaño de fuente */
+    border: none; /* borde */
+    border-radius: 5px; /* radio del borde */
+    cursor: pointer; /* cursor */
+  }
+  #boton-click:active {
+    transform: scale(.9);
+  }
+  
+  #boton-click:hover {
+    background-color: #374d6e; /* color de fondo al pasar el ratón */
+  }

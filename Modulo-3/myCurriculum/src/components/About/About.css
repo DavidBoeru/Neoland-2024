@@ -1,0 +1,13 @@
+#sobreMi {
+     background-color: rgb(66, 49, 82);
+}
+#yo {
+    background-color: rgb(163, 223, 223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 20px 15px 5px black;
+}
+p{
+    color:black;
+}
